@@ -1,6 +1,16 @@
-﻿<# This form was created using POSHGUI.com  a free online gui designer for PowerShell
-    Made by Oscar Woods
-    Copy User Folder to IT Backup folder
+﻿<#
+.SYNOPSIS 
+Copy user folder to network backup folder.
+
+.DESCRIPTION
+GUI-based script will copy a designated (based on input in a GUI) local user folder to the \\RFSERLIV01\IT\Leaver backups folder.
+
+.EXAMPLE
+Putting in woodso into username box will copy the user folder woodso to the network backup folder.
+
+.NOTES
+The GUI will have a box asking for username input, you should put in the desired user that you want to backup into this box and then hit enter or click backup.
+This will then copy the user folder to the network backup folder.
 #>
 
 Add-Type -AssemblyName System.Windows.Forms
