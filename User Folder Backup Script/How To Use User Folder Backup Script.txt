@@ -1,0 +1,11 @@
+Restart the PC (this will clear any user cache) and log in as Administrator (or similar domain rights account)
+
+Right-click script "UserFolderBackup" and select "Run with Powershell"
+
+Enter the user's signin name (usually firstname followed by first letter of last name: e.g. woodso)
+
+Click backup
+
+This will copy the user folder at "C:\Users\selectedUserFolder" to \\RFSERLIV01\IT\Leaver backups"
+
+Close the window terminate the program
